@@ -1,0 +1,34 @@
+{
+  "name": "@sidd9101/colorify",
+  "version": "1.0.0",
+  "description": "This is a JavaScript library to colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddharth9101/sidd9101-colorify.git"
+  },
+  "keywords": [
+    "console log",
+    "colorify",
+    "color log",
+    "color"
+  ],
+  "author": "Siddharth Saxena <siddharthsaxena9101@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Siddharth9101/sidd9101-colorify/issues"
+  },
+  "homepage": "https://github.com/Siddharth9101/sidd9101-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
